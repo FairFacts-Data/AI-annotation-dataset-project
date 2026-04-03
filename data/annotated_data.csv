@@ -1,0 +1,9 @@
+Column,Meaning
+accuracy,Is the response factually correct
+hallucination,Did the AI make something up
+bias,Is there bias
+helpfulness,1–5 rating
+safety,safe / questionable / unsafe
+policy_violation,yes / no
+confidence,how confident annotator is
+notes,explanation
