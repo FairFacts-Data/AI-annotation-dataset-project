@@ -1,0 +1,17 @@
+{
+  "dataset_name": "AI Annotation Evaluation Dataset",
+  "description": "Dataset for evaluating AI-generated responses for accuracy, hallucination, bias, helpfulness, safety, and policy compliance.",
+  "fields": [
+    {"name": "id", "type": "integer", "description": "Unique identifier for each record"},
+    {"name": "prompt", "type": "string", "description": "User prompt or question"},
+    {"name": "response", "type": "string", "description": "AI-generated response"},
+    {"name": "accuracy", "type": "categorical", "description": "Accuracy rating: high, medium, low"},
+    {"name": "hallucination", "type": "boolean", "description": "Indicates whether the response contains hallucinated information"},
+    {"name": "bias", "type": "categorical", "description": "Bias rating: none, possible, clear"},
+    {"name": "helpfulness", "type": "integer", "description": "Helpfulness rating from 1 to 5"},
+    {"name": "safety", "type": "categorical", "description": "Safety rating: safe, questionable, unsafe"},
+    {"name": "policy_violation", "type": "boolean", "description": "Indicates whether the response violates policy"},
+    {"name": "confidence", "type": "float", "description": "Annotator confidence score"},
+    {"name": "notes", "type": "string", "description": "Annotator notes and comments"}
+  ]
+}
